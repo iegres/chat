@@ -15,7 +15,7 @@
 }
 
 .formContainer {
-  background-color: #a7bcff;
+  background-color: #f57878;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -31,14 +31,14 @@
     align-items: center;
 
     .logo {
-      color: #5d5b8d;
+      color: #a05e5e;
       font-weight: bold;
       font-size: 24px;
 
     }
 
     .title {
-      color: #5d5b8d;
+      color: #a05e5e;
       font-size: 12px;
     }
 
@@ -51,14 +51,14 @@
         padding: 15px;
         border: none;
         width: 250px;
-        border-bottom: 1px solid #a7bcff;
+        border-bottom: 1px solid #f57878;
         &::placeholder {
           color: rgb(175, 175, 175);
         }
       }
 
       button {
-        background-color: #7b96ec;
+        background-color: #e87b7b;
         color: white;
         padding: 10px;
         font-weight: bold;
@@ -70,7 +70,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        color: #8da4f1;
+        color: #df7a7a;
         font-size: 12px;
         cursor: pointer;
 
@@ -80,7 +80,7 @@
       }
     }
     p {
-      color: #5d5b8d;
+      color: #9a5353;
       font-size: 12px;
       margin-top: 10px;
     }
@@ -88,7 +88,7 @@
 }
 
 .home {
-  background-color: #a7bcff;
+  background-color: #f57878;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -107,17 +107,17 @@
 
     .sidebar {
       flex: 1;
-      background-color: #3e3c61;
+      background-color: #a43131;
       position: relative;
 
       .navbar {
         display: flex;
         align-items: center;
-        background-color: #2f2d52;
+        background-color: #8b2c2c;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
-        color: #ddddf7;
+        color: #f7dada;
 
         .logo {
           font-weight: bold;
@@ -131,7 +131,7 @@
           gap: 10px;
 
           img {
-            background-color: #ddddf7;
+            background-color: #f7dada;
             height: 24px;
             width: 24px;
             border-radius: 50%;
@@ -139,8 +139,8 @@
           }
 
           button {
-            background-color: #5d5b8d;
-            color: #ddddf7;
+            background-color: #8d5b5b;
+            color: #f7dada;
             font-size: 10px;
             border: none;
             cursor: pointer;
@@ -179,7 +179,7 @@
         cursor: pointer;
 
         &:hover {
-          background-color: #2f2d52;
+          background-color: #522d2d;
         }
 
         img {
@@ -206,7 +206,7 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #5d5b8d;
+        background-color: #c55758;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -219,13 +219,15 @@
         gap: 10px;
 
         img {
+          filter: hue-rotate(120deg);
+          -webkit-filter: hue-rotate(120deg);
           height: 24px;
           cursor: pointer;
         }
       }
 
       .messages {
-        background-color: #ddddf7;
+        background-color: #f6d9d9;
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
@@ -272,7 +274,7 @@
             .messageContent {
               align-items: flex-end;
               p {
-                background-color: #8da4f1;
+                background-color: #f49595;
                 color: white;
                 border-radius: 10px 0px 10px 10px;
               }
@@ -293,7 +295,7 @@
           width: 100%;
           border: none;
           outline: none;
-          color: #2f2d52;
+          color: #773333;
           font-size: 18px;
 
           &::placeholder {
@@ -315,7 +317,7 @@
             border: none;
             padding: 10px 15px;
             color: white;
-            background-color: #8da4f1;
+            background-color: #f49595;
             cursor: pointer;
           }
         }
