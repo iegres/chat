@@ -13,6 +13,7 @@ import {
 import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import { showNotification } from "../notification.js";
 
 const Input = () => {
   const [text, setText] = useState("");
@@ -82,7 +83,7 @@ const Input = () => {
         value={text}
       />
       <div className="send">
-        <img src={Attach} alt="" />
+        <img src={Attach} alt="" onClick={() => showNotification()} />
         <input
           type="file"
           style={{ display: "none" }}
